@@ -41,3 +41,8 @@
 
  /* now solve the challenge, change the text on each button to a different color and 
  change  th color to its pre-defined value*/
+
+
+$("boton").each(function(index) {
+    $(this).text(lista[index])
+})
